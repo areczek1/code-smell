@@ -12,7 +12,7 @@ pool:
 steps:
 - task: SonarCloudPrepare@1
   inputs:
-    SonarCloud: 'tiucz_azure_devops'
+    SonarCloud: 'SonarCloud'
     organization: 'arektiucz'
     scannerMode: 'Other'
 - task: SonarCloudAnalyze@1
